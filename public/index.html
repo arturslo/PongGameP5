@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong</title>
+
+    <style>
+        .input-container {
+            display: flex;
+            margin: 10px 0;
+        }
+        .input-container label {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+<div id='game'>
+
+</div>
+<div id="settings" style="margin-top: 20px;">
+    <div class="input-container">
+        <label for="isPlayer1Computer">Player1 Computer</label>
+        <input id="isPlayer1Computer" type="checkbox">
+    </div>
+    <div class="input-container">
+        <label for="isPlayer2Computer">Player2 Computer</label>
+        <input id="isPlayer2Computer" type="checkbox">
+    </div>
+    <div class="input-container">
+        <label for="isProjectionOn">Projection</label>
+        <input id="isProjectionOn" type="checkbox">
+    </div>
+
+    <div class="input-container">
+        <label for="p1up">Player1 Up</label>
+        <input id="p1up" type="text">
+    </div>
+    <div class="input-container">
+        <label for="p1down">Player1 Down</label>
+        <input id="p1down" type="text">
+    </div>
+    <div class="input-container">
+        <label for="p2up">Payer2 Up</label>
+        <input id="p2up" type="text">
+    </div>
+    <div class="input-container">
+        <label for="p2down">Player2 Down</label>
+        <input id="p2down" type="text">
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
